@@ -1,4 +1,4 @@
-%%  Indoor Geomagnetic Matching Model—— 
+%%  Indoor Geomagnetic Matching Model
 % @file "TestInterpolation.m"
 % @authors Keung Charteris & T.s.road CZQ
 % @version 1.0 ($Revision$)
