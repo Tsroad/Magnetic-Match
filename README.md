@@ -1,9 +1,5 @@
 # Magnetic-Match
    MAGNETICPOLATION Polation Geomagnetic Position.
-   MagneticPolation(ReferencePosition,ReferenceMagnetics,KnownMagnetic) reads data from
-   ReferencePosition----------Polation position Points
-   ReferenceMagnetics---------Polation points Magnetics
-   KnownMagnetic--------------Unknown position Magnetic
    Optionally, returns a unknown position.
    @authors Keung Charteris & T.s.road CZQ
    @version 1.0 ($Revision$)
