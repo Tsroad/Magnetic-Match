@@ -1,5 +1,6 @@
 # Magnetic-Match
    MAGNETICPOLATION Polation Geomagnetic Position. 
+   
    @authors Keung Charteris & T.s.road CZQ
    @version 1.0 ($Revision$)
    @date 16/5/2016 $LastChangedDate$
