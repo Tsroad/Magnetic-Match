@@ -1,7 +1,7 @@
 # Magnetic-Match
    MAGNETICPOLATION Polation Geomagnetic Position. 
    
-   @authors Keung Charteris & T.s.road CZQ
+   @authors Keung Charteris or T.s.road CZQ
    
    @version 1.0 ($Revision$)
    
@@ -9,6 +9,4 @@
 
    @addr. GUET, Gui Lin, 540001,  P.R.China
    
-   @contact : cztsiang@gmail.com & t.s.road@bk.ru
-   
-   @references : UKF在MagSLAM模型中的应用-tsroad-20151010
+   @contact : cztsiang@gmail.com 
