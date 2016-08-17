@@ -16,7 +16,6 @@ function UnknownPosition=MagneticPolation(ReferencePosition,ReferenceMagnetics,K
 %   KnownMagnetic----------------------------Unknown position Magnetic
 %   Optionally, returns a unknown position.
 
-
 UnknownPosition=[];         
 %%  09/11/2015 21:30 am Modified by T.s.road CZQ
 fun1109=@(x)[     ((x(1)-ReferencePosition(2,1))^2+(x(2)-ReferencePosition(2,2))^2)*((x(1)-ReferencePosition(3,1))^2+(x(2)-ReferencePosition(3,2))^2)*((x(1)-ReferencePosition(4,1))^2+(x(2)-ReferencePosition(4,2))^2)*(ReferenceMagnetics(1,1)-KnownMagnetic(1))+...
@@ -32,7 +31,3 @@ fun1109=@(x)[     ((x(1)-ReferencePosition(2,1))^2+(x(2)-ReferencePosition(2,2))
 TempUnknownPosition=lsqnonlin(fun1109,[4.5;18.5]);   % solve the equartion
 UnknownPosition(1)=TempUnknownPosition(1);
 UnknownPosition(2)=TempUnknownPosition(2);
-
-
-
-
