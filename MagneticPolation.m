@@ -26,8 +26,6 @@ fun1109=@(x)[     ((x(1)-ReferencePosition(2,1))^2+(x(2)-ReferencePosition(2,2))
                                 ((x(1)-ReferencePosition(1,1))^2+(x(2)-ReferencePosition(1,2))^2)*((x(1)-ReferencePosition(3,1))^2+(x(2)-ReferencePosition(3,2))^2)*((x(1)-ReferencePosition(4,1))^2+(x(2)-ReferencePosition(4,2))^2)*(ReferenceMagnetics(2,2)-KnownMagnetic(2))+...
                                 ((x(1)-ReferencePosition(1,1))^2+(x(2)-ReferencePosition(1,2))^2)*((x(1)-ReferencePosition(2,1))^2+(x(2)-ReferencePosition(2,2))^2)*((x(1)-ReferencePosition(4,1))^2+(x(2)-ReferencePosition(4,2))^2)*(ReferenceMagnetics(2,3)-KnownMagnetic(2))+...
                                 ((x(1)-ReferencePosition(1,1))^2+(x(2)-ReferencePosition(1,2))^2)*((x(1)-ReferencePosition(2,1))^2+(x(2)-ReferencePosition(2,2))^2)*((x(1)-ReferencePosition(3,1))^2+(x(2)-ReferencePosition(3,2))^2)*(ReferenceMagnetics(2,4)-KnownMagnetic(2))];
-                                
-               
 TempUnknownPosition=lsqnonlin(fun1109,[4.5;18.5]);   % solve the equartion
 UnknownPosition(1)=TempUnknownPosition(1);
 UnknownPosition(2)=TempUnknownPosition(2);
